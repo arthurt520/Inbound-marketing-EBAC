@@ -89,6 +89,8 @@ footer{
     background-color: #254159;
     color:#fff;
     text-align: center;
+    padding:0 20px;
+    margin-top: 5px;
 }
 
 footer small {
@@ -97,10 +99,13 @@ footer small {
 
 .cognito{
     border-top:1px solid black;
-    padding:10px;
-    width: 100%;
+    width:100%;
     float:left;
+    padding:20px;
+
 }
+
+
 
 @media (max-width:480px){
     .main-container{
@@ -136,6 +141,10 @@ footer small {
 @media (min-width:768px) and (max-width:1024px){
     .main-container{
         padding:1%;
+    }
+    .cognito{
+        width: 100%;
+        float:left;
     }
 
     nav ul {
